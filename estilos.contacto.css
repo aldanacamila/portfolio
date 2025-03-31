@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+/* Barra de navegación */
+nav {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección de contacto */
+.contacto-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo, .formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 80%;
+    height: auto;
+}
+
+.formulario {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    background: white;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    align-self: flex-start;
+}
+
+/* Footer con degradado de turquesa */
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background: linear-gradient(to top, turquoise, black);
+}

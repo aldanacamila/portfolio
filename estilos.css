@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+nav {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.blog {
+    padding: 50px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.blog-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.blog-item img {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+.blog-item .text {
+    width: 50%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.box {
+    text-align: center;
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background: linear-gradient(to top, turquoise, black);
+}
